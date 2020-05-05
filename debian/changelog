@@ -1,0 +1,5 @@
+libtvm (0.6.0-0kai0) focal; urgency=medium
+
+  * Initial release
+
+ -- Kai Mast <kaimast@cs.cornell.edu>  Mon, 4 May 2020 21:31:00 +0800

@@ -1,0 +1,11 @@
+Source: libtvm
+Maintainer: Kai Mast <kaimast@cs.cornell.edu>
+Build-Depends: cmake (>= 3.12), debhelper (>= 11)
+
+Package: libtvm
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libllvm9
+
+Package: libtvm-dev
+Architecture: any
+Depends: libtvm (= ${binary:Version}), ${misc:Depends}
